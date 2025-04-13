@@ -55,7 +55,7 @@ O código foi testado em ambiente Linux, utilizando processadores baseados na ar
 
 ## ✅ Testes
 
-O projeto inclui comandos no `Makefile` para facilitar a execução de testes. Certifique-se de que o arquivo src/main_libft.c contém os testes necessários para validar as funções da biblioteca. Caso precise adicionar novos testes, edite esse arquivo e recompile. Siga os passos abaixo para testar a biblioteca:
+O projeto inclui comandos no `Makefile` para facilitar a execução de testes. Siga os passos abaixo para testar a biblioteca:
 
 1. **Clonar o repositório**
 
