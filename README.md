@@ -48,6 +48,35 @@ Libft é uma biblioteca modular que implementa funções úteis para manipulaç�
 - `ft_lstiter`: Aplica uma função a cada elemento da lista.
 - `ft_lstmap`: Aplica uma função a cada elemento da lista, criando uma nova lista.
 
+## 🖥️ Ambiente de Testes
+
+O código foi testado em ambiente Linux, utilizando processadores baseados na arquitetura Intel. Caso utilize outro ambiente ou arquitetura, recomenda-se realizar testes adicionais para garantir a compatibilidade.
+
+
+## ✅ Testes
+
+O projeto inclui comandos no `Makefile` para facilitar a execução de testes. Certifique-se de que o arquivo src/main_libft.c contém os testes necessários para validar as funções da biblioteca. Caso precise adicionar novos testes, edite esse arquivo e recompile. Siga os passos abaixo para testar a biblioteca:
+
+1. **Clonar o repositório**
+
+- Clone o repositório para sua máquina local: git clone https://github.com/thiagleal/libft
+
+2. **Adicionar a main de teste**  
+
+- Certifique-se de incluir um arquivo chamado `main_libft.c` dentro da pasta `src`. Esse arquivo deve conter os testes necessários para validar as funções da biblioteca e deve incluir `#include "libft.h"`.
+
+3. **Criar o binário de teste** 
+
+- Use o comando abaixo para compilar a biblioteca e criar o binário de teste: `make test`.
+
+4. **Executar o teste** 
+
+- Após a criação do binário, execute o teste com: `./test_libft`
+
+5. **Remover os arquivos de teste** 
+
+- Para limpar os arquivos gerados pelos testes, use: `make fcleantest`
+
 ## 📝 Contribuição
 
 Sinta-se à vontade para contribuir com melhorias ou novas funcionalidades para a biblioteca. Abra uma issue ou envie um pull request!
