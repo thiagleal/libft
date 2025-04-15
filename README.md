@@ -59,7 +59,7 @@ O projeto inclui comandos no `Makefile` para facilitar a execução de testes. S
 
 1. **Clonar o repositório**
 
-- Clone o repositório para sua máquina local: git clone https://github.com/thiagleal/libft
+- Clone o repositório para sua máquina local: `git clone https://github.com/thiagleal/libft`
 
 2. **Adicionar a main de teste**  
 
